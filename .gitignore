@@ -1,0 +1,11 @@
+dev-notes.txt
+vault_util
+/.vscode/**
+appviewx_vault_util
+.idea/
+config.json_bu
+config.json_bu_20210714-support
+config.json_bu_with_appviewx_20210714053619
+bin/discover.sh
+bin/install.sh
+

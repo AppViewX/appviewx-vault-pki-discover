@@ -1,0 +1,5 @@
+for i in {1..10}
+do
+/data/SOFTWARES/hashicorpVault/vault secrets enable -path pki-$i pki
+done
+
