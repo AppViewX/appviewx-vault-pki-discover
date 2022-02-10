@@ -1,0 +1,10 @@
+package generator
+
+import "testing"
+
+func TestSecurityString(t *testing.T) {
+	output := SecurityString()
+	if output == "" {
+		t.Fatalf("Error in getting security string")
+	}
+}

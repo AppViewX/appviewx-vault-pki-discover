@@ -1,0 +1,29 @@
+{
+    "appviewx_is_https": true,
+    "appviewx_host": "192.168.150.128",
+    "appviewx_port": 5300,
+    "appviewx_username": "USER_NAME",
+    "installation_path":"",
+    "upload_token_time_period_in_minutes":1,
+    "number_of_allowed_uploads_in_token_time_period":1000,
+    "vaults":[
+        {
+	        "name":"test_vault",
+            "vault_is_https": false,
+            "vault_host": "127.0.0.1",
+            "vault_api_port": 5920,
+            "pki_engines":[
+            ],
+            "auto_discover_pki_engines":true,
+	    "is_username_based_authentication":true,
+	    "auth_path":"userpass",
+	    "user_name":"test",
+            "list_of_namespaces":["namespace1"],
+	    "use_root_token":true
+        }
+    ],
+    "log_rotation_file_count":5,
+    "db_purge_dates":[24],
+    "max_allowed_time_to_run_in_minutes":5,
+    "concurrent_uploads_allowed":5
+}
